@@ -1,0 +1,35 @@
+{
+  "name": "social-poster",
+  "version": "1.0.0",
+  "description": "Built for X",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --exec \"npx ts-node ./src/index.ts\""
+  },
+  "keywords": [
+    "Social",
+    "Poster"
+  ],
+  "author": "Chimdi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "node-cron": "^3.0.3",
+    "twitter-api-v2": "^1.22.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "@types/node-cron": "^3.0.11",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
